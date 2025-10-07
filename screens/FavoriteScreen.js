@@ -19,7 +19,7 @@ import {
 } from "../reducers/favorites";
 import { useFocusEffect } from "@react-navigation/native";
 
-const BACKEND_URL = "http://10.0.0.10:3000";
+const BACKEND_URL = "https://parknride-backend.vercel.app";
 
 export default function FavoriteScreen({ navigation }) {
   const dispatch = useDispatch();

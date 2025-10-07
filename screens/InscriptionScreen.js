@@ -30,7 +30,7 @@ export default function InscriptionScreen({ navigation }) {
       return;
     }
 
-    const BACKEND_URL = "http://10.0.0.10:3000/users/signup";
+    const BACKEND_URL = "https://parknride-backend.vercel.app/users/signup";
 
     // Appel API backend -> création de compte
     fetch(BACKEND_URL, {

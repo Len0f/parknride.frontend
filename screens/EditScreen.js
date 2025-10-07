@@ -15,7 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logoutUser, updateUser } from "../reducers/user";
 
 // ⛽️ Remplace par ton IP
-const BACKEND_URL = "http://10.0.0.10:3000";
+const BACKEND_URL = "https://parknride-backend.vercel.app";
 
 import CustomInput from "../components/CustomInput";
 import CustomButton from "../components/CustomButton";

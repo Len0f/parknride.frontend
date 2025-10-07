@@ -28,7 +28,7 @@ export default function ConnexionScreen({ navigation }) {
       return;
     }
 
-    const BACKEND_URL = "http://10.0.0.10:3000/users/signin";
+    const BACKEND_URL = "https://parknride-backend.vercel.app/users/signin";
 
     fetch(BACKEND_URL, {
       method: "POST",

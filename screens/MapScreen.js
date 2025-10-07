@@ -33,7 +33,7 @@ import {
 import { useRoute } from "@react-navigation/native";
 
 /* ─────────── Config ─────────── */
-const BACKEND_URL = "http://10.0.0.10:3000";
+const BACKEND_URL = "https://parknride-backend.vercel.app";
 
 const FRANCE_REGION = {
   latitude: 46.2276,
