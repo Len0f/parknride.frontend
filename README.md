@@ -24,8 +24,7 @@ Application mobile de recherche de parkings a velo a proximite, developee avec R
 
 - `components/` — Composants React Native réutilisables
 - `screens/` — Ecrans de l'application
-- `navigation/` — Configuration de la navigation
-- `store/` — Configuration Redux
+- `reducers/` — Reducers Redux
 
 ## Backend
 
